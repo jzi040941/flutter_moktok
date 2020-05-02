@@ -4,7 +4,7 @@ import 'package:sampleproject/features/home/presentation/content_layer/video_con
 import 'package:sampleproject/features/home/state/home_page_provider.dart';
 import 'package:provider/provider.dart';
 import 'content_action_bar.dart';
-import 'content_username_description_song.dart';
+//import 'content_username_description_song.dart';
 
 class HomeContentBuilder extends StatefulWidget {
   @override
@@ -59,7 +59,7 @@ class _HomeContentBuilderState extends State<HomeContentBuilder>{
             ///Here lies the username, with the link and the description and song name
             Align(
               alignment: Alignment.bottomLeft,
-              child: ContentInfo,
+              //child: ContentInfo,
             ),
           ],
         );

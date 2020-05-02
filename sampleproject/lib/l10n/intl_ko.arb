@@ -1,0 +1,19 @@
+{
+  "@@last_modified": "2020-05-02T16:50:31.101472",
+  "title": "안녕 세계",
+  "@title": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Following": "팔로잉",
+  "@Following": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "For You": "추천",
+  "@For You": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

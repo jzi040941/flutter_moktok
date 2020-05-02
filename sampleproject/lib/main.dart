@@ -7,7 +7,7 @@ import 'features/layout_manager/presentation/layout_manager.dart';
 import 'features/home/state/home_page_provider.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:intl/intl.dart';
+import 'demo_localization.dart';
 
 void main() => runApp(Providers());
 
@@ -25,8 +25,8 @@ class Providers extends StatelessWidget{
   }
 }
 
-/// [LayoutManagjer] Is a widget that manages the navigation of the app, conjtains a bottom navigation bar
-/// and contains logic to switch fromj page to page.
+/// [LayoutManager] Is a widget that manages the navigation of the app, contains a bottom navigation bar
+/// and contains logic to switch from page to page.
 
 class Material extends StatelessWidget{
   @override
@@ -40,7 +40,7 @@ class Material extends StatelessWidget{
       ],
       supportedLocales: [
         const Locale('en', ''),
-        const Locale('es', ''),
+        const Locale('ko', ''),
       ],
       // Watch out: MaterialApp creates a Localizations widget
       // with the specified delegates. DemoLocalizations.of()

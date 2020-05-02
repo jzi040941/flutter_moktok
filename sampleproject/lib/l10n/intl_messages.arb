@@ -1,0 +1,19 @@
+{
+  "@@last_modified": "2020-05-02T16:50:31.101472",
+  "title": "Hello World",
+  "@title": {
+    "description": "Title for the Demo application",
+    "type": "text",
+    "placeholders": {}
+  },
+  "Following": "Following",
+  "@Following": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "For You": "For You",
+  "@For You": {
+    "type": "text",
+    "placeholders": {}
+  }
+}
